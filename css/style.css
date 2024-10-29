@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: sans-serif;
+}
+
+/*=====================section 1=====================*/
+.section-1 {
+    background-color: #37517e;
+    height: 100vh;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link .active:hover {
+    color: #46AFE0;
+}
+
+.navbar .navbar-toggler .fa-bars,
+.navbar .navbar-nav .nav-link:hover {
+    color: aqua !important;
+}
+
+.video-hover:hover {
+    color: rgb(255, 0, 0) !important;
+}
+
+.get-start:hover {
+    color: rgb(0, 255, 0) !important;
+}
+
+.btn-nav:hover {
+    color: rgb(0, 255, 0) !important;
+    background-color: #44A3D5 !important;
+}
+
+.navbar .navbar-toggler {
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #44A3D5;
+}
+
+/*=====================section-3=====================*/
+.section-3 .session-1 .read-more:hover {
+    color: white !important;
+}
+
+.section-3 .session-2 .accordion-item .accordion-button:hover {
+    color: rgb(0, 219, 219);
+}
+
+/*=====================section-4=====================*/
+
+.section-4 .container-fluid .Lorem-Ipsum {
+    transition: all 0.7s ease-in-out !important;
+}
+
+.section-4 .container-fluid .Lorem-Ipsum .fs-3 {
+    transition: all 1s ease-in-out !important;
+}
+
+.section-4 .container-fluid .Lorem-Ipsum:hover .fs-3 {
+    color: rgb(0, 217, 217) !important;
+}
+
+.section-4 .container-fluid .Lorem-Ipsum:hover {
+    margin-top: -10px !important;
+}
+
+.section-4 .Action {
+    background-image: url(/image/section\ 4/cta-b.jpg) !important;
+    background-attachment: fixed;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .Action .Action-2 {
+    height: 45vh !important;
+}
+
+/*=====================section-5=====================*/
+.section-5 .container .image-1,
+.section-5 .container .image-2,
+.section-5 .container .image-3,
+.section-5 .container .image-4,
+.section-5 .container .image-5,
+.section-5 .container .image-6,
+.section-5 .container .image-7,
+.section-5 .container .image-8,
+.section-5 .container .image-9 {
+    overflow: hidden !important;
+    transition: all 0.5 ease-in-out !important;
+}
+
+.section-5 .container .image-1:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-2:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-3:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-4:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-5:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-6:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-7:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-8:hover .app-1 {
+    bottom: 0px !important;
+}
+.section-5 .container .image-9:hover .app-1 {
+    bottom: 0px !important;
+}
+
+/*=====================section-6=====================*/
+
+.section-6 .container-fluid .card {
+    transition: all 0.5s ease-in-out !important;
+}
+
+.section-6 .container-fluid .card:hover {
+    margin-top: -7px !important;
+}
+
+.section-6 .icon-section-6:hover {
+    background-color: aqua !important;
+    color: white !important;
+}
+
+/*=====================section-7=====================*/
+
+
+/*=====================section-9=====================*/
+
+.section-9 .accordion-item .accordion-button .fw-bolder:hover {
+    color: rgb(0, 219, 219) !important;
+
+}
+
+/*=====================section-11=====================*/
+.section-11 .icon-section-6:hover {
+    background-color: aqua !important;
+    color: white !important;
+}
+
+
+
+
+
+/**/
+@media(max-width :1024px) {
+    .section-7 .pricing {
+        width: 31% !important;
+    }
+}
+
+
+@media(max-width :768px) {
+    .section-1 .image {
+        order: -1;
+    }
+
+    .section-7 .pricing {
+        width: 100% !important;
+    }
+}
+
+@media(max-width :426px) {
+    .section-1 .titles {
+        font-size: 33px !important;
+    }
+
+    .section-7 .pricing {
+        width: 90% !important;
+    }
+}
