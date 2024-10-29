@@ -76,7 +76,7 @@ body {
 }
 
 .section-4 .Action {
-    background-image: url(/image/section\ 4/cta-b.jpg) !important;
+    background-image: url(./image/section\ 4/cta-b.jpg) !important;
     background-attachment: fixed;
     height: auto;
     background-repeat: no-repeat;
