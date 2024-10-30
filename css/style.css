@@ -48,6 +48,26 @@ body {
     background-color: #44A3D5;
 }
 
+.section-1 .container .row .image .anima{
+    animation-name: image_animation;
+    animation-iteration-count:infinite;
+    animation-duration: 7s;
+}
+
+@keyframes image_animation {
+    25%{
+        transform: translateY(-25px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+
+    75%{
+        transform: translateY(-25px)
+    }
+}
+
 /*=====================section-3=====================*/
 .section-3 .session-1 .read-more:hover {
     color: white !important;
@@ -76,7 +96,7 @@ body {
 }
 
 .section-4 .Action {
-    background-image: url(./image/section\ 4/cta-b.jpg) !important;
+    background-image: url(../image/section\ 4/cta-b.jpg) !important;
     background-attachment: fixed;
     height: auto;
     background-repeat: no-repeat;
@@ -108,27 +128,35 @@ body {
 .section-5 .container .image-1:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-2:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-3:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-4:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-5:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-6:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-7:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-8:hover .app-1 {
     bottom: 0px !important;
 }
+
 .section-5 .container .image-9:hover .app-1 {
     bottom: 0px !important;
 }
@@ -151,6 +179,15 @@ body {
 /*=====================section-7=====================*/
 
 
+
+
+
+/*=====================section-8=====================*/
+.section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .img-fluid {
+    margin-bottom: 100px !important;
+    margin-top: -80px !important;
+}
+
 /*=====================section-9=====================*/
 
 .section-9 .accordion-item .accordion-button .fw-bolder:hover {
@@ -165,10 +202,7 @@ body {
 }
 
 
-
-
-
-/**/
+/*=====================(media)===============================*/
 @media(max-width :1024px) {
     .section-7 .pricing {
         width: 31% !important;
@@ -194,4 +228,40 @@ body {
     .section-7 .pricing {
         width: 90% !important;
     }
+
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .img-fluid {
+        margin-bottom: 169px !important;
+        margin-top: -75px !important;
+    }
+
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .image-5 {
+        margin-bottom: 210px !important;
+        margin-top: -75px !important;
+    }
+
+}
+
+@media(max-width :376px) {
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .img-fluid {
+        margin-bottom: 220px !important;
+        margin-top: -105px !important;
+    }
+
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .image-5 {
+        margin-bottom: 234px !important;
+        margin-top: -114px !important;
+    }
+}
+
+@media(max-width :320px) {
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .img-fluid {
+        margin-bottom: 275px !important;
+        margin-top: -75px !important;
+    }
+
+    .section-8 .container-fluid .container .row .col-lg-12 .carousel-inner .image-5 {
+        margin-bottom: 316px !important;
+        margin-top: -75px !important;
+    }
+
 }
