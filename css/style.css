@@ -48,22 +48,22 @@ body {
     background-color: #44A3D5;
 }
 
-.section-1 .container .row .image .anima{
+.section-1 .container .row .image .anima {
     animation-name: image_animation;
-    animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
     animation-duration: 7s;
 }
 
 @keyframes image_animation {
-    25%{
+    25% {
         transform: translateY(-25px);
     }
 
-    50%{
+    50% {
         transform: translateY(0px);
     }
 
-    75%{
+    75% {
         transform: translateY(-25px)
     }
 }
@@ -112,52 +112,52 @@ body {
 }
 
 /*=====================section-5=====================*/
-.section-5 .container .image-1,
-.section-5 .container .image-2,
-.section-5 .container .image-3,
-.section-5 .container .image-4,
-.section-5 .container .image-5,
-.section-5 .container .image-6,
-.section-5 .container .image-7,
-.section-5 .container .image-8,
-.section-5 .container .image-9 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-1,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-2,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-3,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-4,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-5,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-6,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-7,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-8,
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-9 {
     overflow: hidden !important;
-    transition: all 0.5 ease-in-out !important;
+    transition: all 1s ease-in-out !important;
 }
 
-.section-5 .container .image-1:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-1:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-2:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-2:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-3:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-3:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-4:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-4:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-5:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-5:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-6:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-6:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-7:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-7:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-8:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-8:hover .app-1 {
     bottom: 0px !important;
 }
 
-.section-5 .container .image-9:hover .app-1 {
+.section-5 .container .tab-content .tab-pane .row .col-lg-4 .image-9:hover .app-1 {
     bottom: 0px !important;
 }
 
@@ -191,11 +191,18 @@ body {
 
 }
 
-/*=====================section-11=====================*/
-.section-11 .icon-section-6:hover {
+/*=====================section-12=====================*/
+.section-12 .card-body a:hover {
+    color: aqua !important;
+}
+
+
+
+.section-12 .container .row .icons .icon-section-6:hover {
     background-color: aqua !important;
     color: white !important;
 }
+
 
 
 /*=====================(media)===============================*/
